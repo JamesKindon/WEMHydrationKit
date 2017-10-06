@@ -1,0 +1,4 @@
+#Internet Explorer Easy List
+	Registry Keys
+	File Actions (Requires path customisation)
+			

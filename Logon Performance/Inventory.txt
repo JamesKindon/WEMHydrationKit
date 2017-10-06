@@ -1,0 +1,3 @@
+# Logon Performance
+	Serialize / Startup Delay - Assist with speeding up Logons
+		Registry Key 

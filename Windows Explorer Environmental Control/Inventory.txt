@@ -1,0 +1,13 @@
+#Windows Explorer / Environment Control
+	Taskbar Icon Size - small
+		Registry Key
+	Desktop Icon Size - small
+		Registry Key
+	Hide Drives in My Computer (A,B,C,D,E)
+		Registry Key
+	WinX - To deal with UPM killing right click options on start menu in some environments
+		File System Operation
+	Microsoft Vault Store
+		File System Operation
+	Microsoft Inet Cache Creation - to deal with certain environments with UPM and office/javavm memory errors
+		File System Operation

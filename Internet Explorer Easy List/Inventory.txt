@@ -1,3 +1,5 @@
+Internet Explorer Easy List - Adblock - Needs user customisation
+
 #Internet Explorer Easy List
 	Registry Keys
 	File Actions (Requires path customisation)

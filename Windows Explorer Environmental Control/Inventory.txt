@@ -1,3 +1,5 @@
+Windows Explorer Environment Control
+
 #Windows Explorer / Environment Control
 	Taskbar Icon Size - small
 		Registry Key

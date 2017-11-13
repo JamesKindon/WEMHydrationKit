@@ -13,3 +13,37 @@ Windows Explorer Environment Control
 		File System Operation
 	Microsoft Inet Cache Creation - to deal with certain environments with UPM and office/javavm memory errors
 		File System Operation
+		
+#The Hal Lange Set
+	Control Panel - Icon View - Show Icons in Control Panel
+		Registry Key
+	Control Panel - Startup View - Show Icons as Startup in Control Panel
+		Registry Key
+	Start Menu - Hide Run - Proper way to hide Run from Start Menu
+		Registry Key
+	Start Menu - Hide Default Programs - Proper way to hide Default Programs from Start Menu
+		Registry Key
+	Start Menu - Hide Personalized Folders - Proper way to hide User Folder from Start Menu
+		Registry Key
+	Start Menu - Disable Search of Files - This will stop the Start Menu from searching files
+		Registry Key
+	Start Menu - Disable Pictures Folder - This will disable the Pictures folder link on the Start Menu
+		Registry Key
+	Start Menu - Disable Music Folder - This will disable Music folder from the Start Menu
+		Registry Key
+	Start Menu - Disable My Computer - This will disable My Computer from showing in Start Menu
+		Registry Key
+	Start Menu - Disable Devices and Printers - This will remove Devices and Printers from Start Menu
+		Registry Key
+	Start Menu - Disable Admin Tools - This will disable Administrative Tools on the Start Menu
+		Registry Key
+	Start Menu - Disable Videos Folder - This will disable the Videos folder link on the Start Menu
+		Registry Key
+	Start Menu - Disable Downloads Folder - This will disable the Downloads folder link on the Start Menu
+		Registry Key
+	Start Menu - Disable Recent Items - This will disable the Recent Items menu from the Start Menu
+		Registry Key
+	Windows Explorer - Disable Registry - Disable the Use of the Registry Tools UI
+		Registry Key
+	Windows Explorer - Disable CMD - Disable the Windows CMD Prompt
+		Registry Key

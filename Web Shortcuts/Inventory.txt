@@ -1,0 +1,25 @@
+List of URL's
+
+#Office 365 Apps
+	Microsoft Outlook Online
+	Microsoft Word Online
+	Microsoft Excel Online
+	Microsoft PowerPoint Online
+	Microsoft OneDrive Online (Need custom edit)
+	Microsoft Teams
+	Microsoft Yammer
+	Microsoft Flow
+	Microsoft Delve
+	Microsoft Forms
+	Microsoft PowerBI
+	Microsoft Stream
+	Microsoft Sway
+	Microsoft MyApps
+#Azure Services and Management URL's
+	Azure Password Reset
+	Azure Security Verification (MFA)
+	Microsoft Company Portal
+	Microsoft Office 365 Service Health
+	Azure Management Portal
+	Microsoft 365 Admin portal
+	Microsoft Accounts Portal

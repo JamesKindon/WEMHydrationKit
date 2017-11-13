@@ -2,6 +2,7 @@
 Hydration Kit for Citrix Workspace Environment Management
 
 Initial Release 07.10.17
+
 Update Release 13.11.17 - The Hal Lange Set, Foxit Reader, Windows Snipping Tool, Office 365 Online Apps, Azure Services and Management URL's
 
 Master Config List - All Actions

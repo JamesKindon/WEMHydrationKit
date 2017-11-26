@@ -1,0 +1,5 @@
+Citrix UPM Module - Needs User Customisation
+
+#Configurations based on the following blogs
+	Carl Stalhood: http://www.carlstalhood.com/citrix-profile-management/
+	James Rankin: http://www.htguk.com/everything-you-wanted-to-know-about_23/

@@ -7,6 +7,8 @@ Update Release 13.11.17 - The Hal Lange Set, Foxit Reader, Windows Snipping Tool
 
 Update Release 27.11.17 - Citrix UPM Module made available
 
+Update Release 01.01.19 - Environmental Settings to Reg Action Module made available
+
 Master Config List - All Actions
 
 ### Applications
@@ -159,5 +161,73 @@ Master Config List - All Actions
 				Registry Key
 			Windows Explorer - Disable CMD - Disable the Windows CMD Prompt
 				Registry Key
+### Environmental Settings Registry Actions
+	#Start Menu Management
+		Environmental: 	Hide Common Programs	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoCommonGroups	:	DWORD	:	UI - Start Menu - Hide Common Programs: Enabled(1) Disabled (0)
+		Environmental: 	Remove Run from Start Menu	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoRun	:	DWORD	:	UI - Start Menu - Remove Run: Enabled(1) Disabled (0)
+		Environmental: 	Hide Administrative Tools	:	Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced	:	Start_AdminToolsRoot	:	DWORD	:	UI - Start Menu - Hide Admin Tools: Enabled (0) Disabled (1)
+		Environmental: 	Hide Help	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoSMHelp	:	DWORD	:	UI - Start Menu - Hide Help: Enabled (1) Disabled (0)
+		Environmental: 	Hide Find	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoFind	:	DWORD	:	UI - Start Menu - Hide Find: Enabled (1) Disabled (0)
+		Environmental: 	Hide Windows Update	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoWindowsUpdate	:	DWORD	:	UI - Start Menu - Hide Windows Update: Enabled (1) Disabled (0)
+		Environmental: 	Lock Taskbar	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	LockTaskbar	:	DWORD	:	UI - Start Menu - Lock Taskbar: Enabled (1) Disabled (0)
+		Environmental: 	Hide System Clock	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	HideClock	:	DWORD	:	UI - Start Menu - Hide Clock: Enabled (1) Disabled (0)
+		Environmental: 	Hide Devices and Printers	:	Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced	:	Start_ShowPrinters	:	DWORD	:	UI - Start Menu - Hide Devies and Printers: Enabled (0) Disabled (1)
+		Environmental: 	Hide Turn Off Computer	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoClose	:	DWORD	:	UI - Start Menu - Hide Turn Off Computer: Enabled (1) Disabled (0)
+		Environmental: 	Force Logoff Button	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	ForceStartMenuLogoff	:	DWORD	:	UI - Start Menu - Force Logoff: Enabled (1) Disabled (0)
+		Environmental: 	Turn Off Notification Area Cleanup	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoAutoTrayNotify	:	DWORD	:	UI - Start Menu - Turn Off Notification Area Cleanup: Enabled (1) Disabled (0)
+		Environmental: 	Turn Off Personalized Menus	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	Intellimenus	:	DWORD	:	UI - Start Menu - Turn off Personalized Menus: Enabled (0) Disabled (1)
+		Environmental: 	Clear Recent Programs List	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	ClearRecentProgForNewUserInStartMenu	:	DWORD	:	UI - Start Menu - Clear Recent Programs List: Enabled (1) Disabled (0)
+	#User Interface Appearance Management
+		Environmental: 	Set Specific Theme File	:	Software\Policies\Microsoft\Windows\Personalization	:	ThemeFile	:	REG_SZ	:	UI - Theme - Path to Theme File
+		Environmental: 	Set Background Color	:	Control Panel\Colors	:	Background	:	REG_SZ	:	UI - Theme - Background Configured color (R G B)
+		Environmental: 	Set Specific Visual Style	:	Software\Policies\Microsoft\Windows\Personalization	:	SetVisualStyle	:	REG_SZ	:	UI - Theme - Patch to visual Style
+		Environmental: 	Set Wallpaper	:	Software\Microsoft\Windows\CurrentVersion\Policies\System	:	Wallpaper	:	REG_SZ	:	UI - Theme - Path to Wallpaper
+		Environmental: 	Set Wallpaper Style	:	Software\Microsoft\Windows\CurrentVersion\Policies\System	:	WallpaperStyle	:	REG_SZ	:	UI - Theme - Wallpaper Style
+		Environmental: 	Set Wallpaper Tile	:	Software\Microsoft\Windows\CurrentVersion\Policies\System	:	TileWallpaper	:	REG_SZ	:	UI - Theme - Wallpaper Tiled
+	#Desktop Management
+		Environmental: 	Hide My Computer Icon	:	Software\Microsoft\Windows\CurrentVersion\Policies\NonEnum	:	{20D04FE0-3AEA-1069-A2D8-08002B30309D}	:	DWORD	:	UI - Desktop - Hide My Computer Icon: Enabled (1) Disabled (0)
+		Environmental: 	Hide Recycle Bin Icon	:	Software\Microsoft\Windows\CurrentVersion\Policies\NonEnum	:	{645FF040-5081-101B-9F08-00AA002F954E}	:	DWORD	:	UI - Desktop - Hide Recylce Bin: Enabled (1) Disabled (0)
+		Environmental: 	Hide My Documents Icon	:	Software\Microsoft\Windows\CurrentVersion\Policies\NonEnum	:	{450D8FBA-AD25-11D0-98A8-0800361B1103}	:	DWORD	:	UI - Desktop - Hide My Documents: Enabled (1) Disabled (0)
+		Environmental: 	Go to Desktop instead of Start	:	Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage	:	OpenAtLogon	:	DWORD	:	UI - Desktop - Go to Desktop Instead of Start: Enabled (0) Disabled (1)
+		Environmental: 	Disable System Properties	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoPropertiesMyComputer	:	DWORD	:	UI - Desktop - Hide System Properties: Enabled (1) Disabled (0)
+		Environmental: 	Disable Recycle Bin Properties	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoPropertiesRecycleBin	:	DWORD	:	UI - Desktop - Hide Properties from Recylce Bin: Enabled (1) Disabled (0)
+		Environmental: 	Disable My Documents Properties	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoPropertiesMyDocuments	:	DWORD	:	UI - Desktop - Hide Properties from My Documents: Enabled (1) Disabled (0)
+		Environmental: 	Hide Network Icon	:	Software\Microsoft\Windows\CurrentVersion\Policies\NonEnum	:	{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}	:	DWORD	:	UI - Desktop - Hide Network Icon: Enabled (1) Disabled (0)
+		Environmental: 	Hide Network Connections	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoNetworkConnections	:	DWORD	:	UI - Desktop - Hide Network Connections: Enabled (1) Disabled (0)
+		Environmental: 	Disable Task Manager	:	Software\Microsoft\Windows\CurrentVersion\Policies\System	:	DisableTaskMgr	:	DWORD	:	UI - Desktop - Disable Task Manager: Enabled (1) Disabled (0)
+		Environmental: 	Disable Switcher	:	Software\Microsoft\Windows\CurrentVersion\ImmersiveShell\EdgeUI	:	DisableTLcorner	:	DWORD	:	UI - EdgeUI - Disable Switcher: Enabled (1) Disabled (0)
+		Environmental: 	Disable Charm Hints	:	Software\Microsoft\Windows\CurrentVersion\ImmersiveShell\EdgeUI	:	DisableCharmsHint	:	DWORD	:	UI - EdgeUI - Disable Charms Hint: Enabled (1) Disabled (0)
+	#Windows Explorer Management
+		Environmental: 	Prevent Access to Registry Editing Tools	:	Software\Microsoft\Windows\CurrentVersion\Policies\System	:	DisableRegistryTools	:	DWORD	:	Windows Explorer - Prevent Access to RegEdit: Enabled (1) Disabled (0)
+		Environmental: 	Prevent Access to the Command Prompt	:	Software\Policies\System	:	DisableCMD	:	DWORD	:	Windows Explorer - Prevent Access to CMD: Enabled (1) Disabled (0)
+		Environmental: 	Remove Context Menu Manage Item	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoManageMyComputerVerb	:	DWORD	:	Windows Explorer - Remove Context Menu Managed Item: Enabled (1) Disabled (0)
+		Environmental: 	Remove Network Context Menu Items	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoNetworkConnections	:	DWORD	:	Windows Explorer - Remove Network Connections Context menu: Enabled (1) Disabled (0)
+		Environmental: 	Hide Libraries in Explorer	:	Software\Microsoft\Windows\CurrentVersion\Policies\NonEnum	:	{031E4825-7B94-4dc3-B131-E946B44C8DD5}	:	DWORD	:	Windows Explorer - Hide Libraries in Explorer: Enabled (1) Disabled (0)
+		Environmental: 	Hide Network Icon in Explorer	:	Software\Microsoft\Windows\CurrentVersion\Policies\NonEnum	:	{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}	:	DWORD	:	Windows Explorer - Hide Network Icon in Explorer: Enabled (1) Disabled (0)
+		Environmental: 	Hide Programs Control Panel	:	Software\Microsoft\Windows\CurrentVersion\Policies\Programs	:	NoProgramsCPL	:	DWORD	:	Windows Explorer - Hide Programs Control Panel: Enabled (1) Disabled (0)
+		Environmental: 	Disable Windows Security	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoNtSecurity	:	DWORD	:	Windows Explorer - Disable Windows Security: Enabled (1) Disabled (0)
+		Environmental: 	Disable Explorer Context Menu	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoViewContextMenu	:	DWORD	:	Windows Explorer - Disable Explorer Context View: Enabled (1) Disabled (0)
+		Environmental: 	Disable Taskbar Context Menu	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoTrayContextMenu	:	DWORD	:	Windows Explorer - Disable Taskbar Context Menu: Enabled (1) Disabled (0)
+		Environmental: 	Hide specified Drives from Explorer	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoDrives	:	DWORD	:	Windows Explorer - Hide Drives via NoDrives Value
+		Environmental: 	Restrict Specified Drives from Explorer	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoViewOnDrive	:	DWORD	:	Windows Explorer - Restrict specified drives from Explorer
+	#Control Panel Management
+		Environmental: 	Hide Control Panel	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	NoControlPanel	:	DWORD	:	Control Panel - Hide Control Panel: Enabled (1) Disabled (0)
+		Environmental: 	Show only specified Control Panel Applets	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	RestrictCpl	:	DWORD	:	Control Panel - Show Only Specified Applets: Enabled (1) Disabled (0)
+		Environmental: 	For each allowed applet	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictCpl	:	Applet index	:	REG_SZ	:	Control Panel - Applets to Show: Enabled (AppletName) Disabled (Null)
+		Environmental: 	Hide specified Control Panel Applets	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer	:	DisallowCpl	:	DWORD	:	Control Panel - Hide Specified Control Panel Applets: Enabled (1) Disabled (0)
+		Environmental: 	For each disallowed applet	:	Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\DisallowCpl	:	Applet index	:	REG_SZ	:	Control Panel - Applets to Hide: Enabled (AppletName) Disabled (Null)
+	#Known Folders Management
+		Environmental: 	Disable Specified Known Folders	:	Software\Policies\Microsoft\Windows\Explorer	:	DisableKnownFolders	:	DWORD	:	Known Folders - Disabled Known Folders: Enabled (FolderName) Disabled (Null)
+		Environmental: 	For each disabled folder	:	Software\Policies\Microsoft\Windows\Explorer\DisableKnownFolders	:	Disabled folder name	:	REG_SZ	:	Known Folders - For each folder to hideL: Enabled (Disabled folder name) Disabled (Null)
+	#SBC Tuning
+		Environmental: 	Disable Drag Full Windows	:	Control Panel\Desktop	:	DragFullWindows	:	DWORD	:	SBC Tuning - Disable Drag Full Windows: Enabled (0) Disabled (1)
+		Environmental: 	Disable Cursor Blink	:	Control Panel\Desktop	:	DisableCursorBlink	:	DWORD	:	SBC Tuning - Disable Cursor Blink: Enabled (1) Disabled (0)
+		Environmental: 	Enable AutoEndTasks	:	Control Panel\Desktop	:	EnableAutoEndTasks	:	DWORD	:	SBC Tuning - Enable AutoEndTasks: Enabled (1) Disabled (0)
+		Environmental: 	WaitToKillApp Timeout	:	Control Panel\Desktop	:	WaitToKillAppTimeout	:	DWORD	:	SBC Tuning - WaitToKillApp Timeout: Enabled (Specify Value) Disabled (20000)
+		Environmental: 	Set Cursor Blink Rate	:	Control Panel\Desktop	:	CursorBlinkRate	:	DWORD	:	SBC Tuning - Set Cursor Blink Rate: Enabled (Specify Value) Disabled (500)
+		Environmental: 	Set Menu Show Delay	:	Control Panel\Desktop	:	MenuShowDelay	:	DWORD	:	SBC Tuning - Set Menu Show Delay: Enabled (Specify Value) Disabled (400)
+		Environmental: 	Set Interactive Delay	:	Control Panel\Desktop	:	InteractiveDelay	:	DWORD	:	SBC Tuning - Set Interactive Delay: Enabled (Specify Value) Disabled (null)
+		Environmental: 	Disable SmoothScroll	:	Control Panel\Desktop	:	SmoothScroll	:	DWORD	:	SBC Tuning - Disable SmoothScroll: Enabled (0) Disabled (1)
+		Environmental: 	Disable MinAnimate	:	Control Panel\Desktop	:	MinAnimate	:	DWORD	:	SBC Tuning - Disable MinAnimate: Enabled (0) Disabled (1)
 
 

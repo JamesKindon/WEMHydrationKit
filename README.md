@@ -104,6 +104,19 @@ Master Config List - All Actions
 			Azure Management Portal
 			Microsoft 365 Admin portal
 			Microsoft Accounts Portal
+		#Shell Folders
+			Add Programs
+			Admin Tools
+			All Apps
+			Change Remove Programs
+			Control Panel
+			Installed Updates
+			Internet Explorer Cache
+			Internet Explorer Cookies
+			Libraries
+			Network Connections
+			Printers
+			Recent
 
 ### Configuration Tweaks
 		#Internet Explorer Easy List

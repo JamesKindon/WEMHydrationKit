@@ -79,6 +79,11 @@ Master Config List - All Actions
 		#Adobe
 			Adobe Reader DC
 		#Citrix
+			WEM RSOP Agent (Pre 1909)
+			WEM Agent Log Parser (Pre 1909)
+			WEM App Management (Pre 1909)
+			WEM Printer Management (Pre 1909)
+			WEM UI Agent (Pre 1909)
 			WEM RSOP Agent
 			WEM Agent Log Parser
 			WEM App Management

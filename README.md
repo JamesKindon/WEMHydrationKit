@@ -28,6 +28,16 @@ Master Config List - All Actions
 			OneNote 2013
 			Project 2013
 			Visio 2013
+		#Microsoft Office 2016 (ProPlus)
+			Word 2016 (ProPlus)
+			Excel 2016 (ProPlus)
+			PowerPoint 2016 (ProPlus)
+			Outlook 2016 (ProPlus)
+			Access 2016 (ProPlus)
+			OneNote 2016 (ProPlus)
+			Visio 2016 (ProPlus)
+			Project 2016 (ProPlus)
+			Skype 2016 (ProPlus)
 		#Microsoft Office 2016
 			Word 2016
 			Excel 2016
@@ -117,6 +127,10 @@ Master Config List - All Actions
 			Network Connections
 			Printers
 			Recent
+		#FSLogix
+			FSLogix Tray
+			FSlogix Rule Editor
+			FSLogix Java Rule Editor
 
 ### Configuration Tweaks
 		#Internet Explorer Easy List

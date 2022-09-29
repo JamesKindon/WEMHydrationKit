@@ -1,0 +1,12 @@
+AuthManSvr
+CtxAudioService
+CtxWebBrowser
+Lync
+Teams
+MediaEngine.Net.Service
+MediaEngineService
+receiver
+SelfService
+SelfServicePlugin
+wfica
+Zoom
